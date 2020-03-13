@@ -70,15 +70,18 @@ p{
     margin: 8px 1.5rem;
 }
 
-.slot1 p,.slot2 p,.slot3 p,.slot4 p{
-    margin-top: 25px;
+.team-text {
+    position: absolute;
+    top: -25%;
 }
 
+
 .slot1 div,.slot2 div,.slot3 div,.slot4 div{
-    width:100px;
-    height:50px;
-    left:160px;
-    background-size:100% 100%;
+    width: 5rem;
+    height: 3.55rem;
+    right: 0;
+    top: 0;
+    background-size: 100% 100%;
 }
 
 .slot1{
