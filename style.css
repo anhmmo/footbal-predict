@@ -98,21 +98,21 @@ p{
 }
 
 #knockout{
-    bottom: 0;
+    bottom: 2%;
     left: 50%;
     transform: translateX(-50%);
-    width:600px;
-    height:420px;
+    width: 100rem;
+    height: 48rem;
     background-color:white;
-    border:1px solid black;
+    border: 1px solid black;
 }
 .phase{
-    width:58px;
-    height:40px;
-    border:1px solid black;
+    width: 10rem;
+    height: 5rem;
+    border: 1px solid black;
     color:black;
-    font-size:12px;
-    font-weight:800;
+    font-size: 1.2rem;
+    font-weight: 800;
     background-color:#ffaaaa;
 }
 .phase .teamA{
@@ -138,30 +138,31 @@ p{
     overflow-y:hidden;
 }
 .boxA,.boxB{
-    top:10px;
+    top: 100px;
 }
 .boxC,.boxD{
-    top:54px;
+    top: 144px;
 }
 .boxE,.boxF{
-    top:120px;
+    top: 300px;
 }
 .boxG,.boxH{
-    top:164px;
+    top: 344px;
 }
 .boxA,.boxC,.boxE,.boxG{
-    left:10px;
+    left: 10rem;
 }
 
 .boxB,.boxD,.boxF,.boxH{
-    left:220px;
+    left: 80rem;
 }
 
 #quarterphase{
-    top:220px;
-    left:79px;
-    width:140px;
-    height:170px;
+    top: 25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 18rem;
+    height: 19rem;
     border:1px solid black;
 }
 .boxA2,.boxB2{
@@ -176,17 +177,18 @@ p{
 }
 .boxB2,.boxC2{
     left:75px;
+    z-index: 2;
 }
 
 #semiphase{
-    top:275px;
-    left:84px;
+    top: 50rem;
     width:130px;
     height:65px;
     background-color:rgba(0,0,250,1);
     font-weight:15px;
     text-align:center;
-    font-family:monospace;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .boxA3,.boxB3{
     top:15px;
@@ -217,14 +219,15 @@ p{
 }
 
 #final{
-    top:50px;
-    left:20px;
+    top: 65%;
     width:280px;
     height:250px;
     background-image:url(https://cdni.rt.com/files/2018.03/article/5ab4f490fc7e93e4708b45b2.jpg);
     border:2px solid black;
     background-size:100% 100%;
     perspective:400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .fteam{
     width:100px;
