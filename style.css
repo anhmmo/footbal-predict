@@ -59,8 +59,6 @@ p{
 }
 
 .slot1,.slot2,.slot3,.slot4{
-    left: 50%;
-    transform: translateX(-50%);
     width: 36rem;
     padding-left: 1rem;
     height: 3rem;
@@ -69,7 +67,11 @@ p{
     border: 1px solid black;
     border-radius: 4px;
     overflow: hidden;
-    margin: 8px 0;
+    margin: 8px 1.5rem;
+}
+
+.slot1 p,.slot2 p,.slot3 p,.slot4 p{
+    margin-top: 25px;
 }
 
 .slot1 div,.slot2 div,.slot3 div,.slot4 div{
