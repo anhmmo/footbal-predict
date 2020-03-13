@@ -182,17 +182,22 @@ p{
 
 #semiphase{
     top: 50rem;
-    width:130px;
-    height:65px;
+    width: 20rem;
+    height: 10rem;
     background-color:rgba(0,0,250,1);
-    font-weight:15px;
     text-align:center;
     left: 50%;
     transform: translateX(-50%);
 }
+
+
+#semiphase .phase{
+    top: 3rem;
+}
+
 .boxA3,.boxB3{
-    top:15px;
-    border-radius:15px;
+    top: 2rem;
+    width: 5rem;
 }
 .boxA3{
     border-left:1px solid black;
@@ -212,10 +217,10 @@ p{
     opacity:0;
 }
 .boxA3{
-    left:5px;
+    left: 1rem;
 }
 .boxB3{
-    left:65px;
+    left: 10rem;
 }
 
 #final{
