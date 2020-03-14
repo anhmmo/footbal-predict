@@ -1,111 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-        <title>Page Title</title>
-        <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: linear-gradient(45deg,rgba(83, 238, 148, 0.2) 50%,rgba(32, 165, 98, 0.2)),url(https://pixabay.com/get/57e2dd474857af14ea9d8578c22a3678133fc3e456597548722c72d594/people-1284253.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        filter: blur(.2);
+        font-family: 'Inter', sans-serif;
+    }
 
-    <body>
+    .container {
+        text-align: center;
+    }
 
-    
-    <div id="groups">
-        <div id="header">Group ...</div>
-        <div class="slot1">
-            <div></div><p class="team-text"></p>
-        </div>
-        <div class="slot2">
-            <div></div><p class="team-text"></p>
-        </div>
-        <div class="slot3">
-            <div></div><p class="team-text"></p>
-        </div>
-        <div class="slot4">
-            <div></div><p class="team-text"></p>
-        </div>
-        <div id="start" >start</div>
-    </div>    
-        
-    <div id="knockout">
-        <div class="phase boxA">
-            <div class="teamA" id="a1">...</div>
-            <div class="teamB" id="b2">...</div>
-        </div>
-        <div class="phase boxB">
-            <div class="teamA" id="b1">...</div>
-            <div class="teamB" id="a2">...</div>
-        </div>
-        <div class="phase boxC">
-            <div class="teamA" id="c1">...</div>
-            <div class="teamB" id="d2">...</div>
-        </div>
-        <div class="phase boxD">
-            <div class="teamA" id="d1">...</div>
-            <div class="teamB" id="c2">...</div>
-        </div>
-        <div class="phase boxE">
-            <div class="teamA" id="e1">...</div>
-            <div class="teamB" id="f2">...</div>
-        </div>
-        <div class="phase boxF">
-            <div class="teamA" id="f1">...</div>
-            <div class="teamB" id="e2">...</div>
-        </div>
-        <div class="phase boxG">
-            <div class="teamA" id="g1">...</div>
-            <div class="teamB" id="h2">...</div>
-        </div>
-        <div class="phase boxH">
-            <div class="teamA" id="h1">...</div>
-            <div class="teamB" id="g2">...</div>
-        </div>
-    </div>    
+    h2 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 700;
+    }
 
-    <div id="quarterphase">
-        <div class="phase boxA2">
-            <div class="teamA" id="a3">...</div>
-            <div class="teamB" id="c3">...</div>
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        padding: 5px 100px;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(0, 128, 58);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+  
+</style>
+<body>
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/ac/2022_FIFA_World_Cup.png" alt="">
+            <h2 class="class">football predictions</h2>
+            <a href="play.html" class="class">Go</a>
         </div>
-        <div class="phase boxB2">
-            <div class="teamA" id="b3">...</div>
-            <div class="teamB" id="d3">...</div>
-        </div>
-        <div class="phase boxC2">
-            <div class="teamA" id="f3">...</div>
-            <div class="teamB" id="h3">...</div>
-        </div>
-        <div class="phase boxD2">
-            <div class="teamA" id="e3">...</div>
-            <div class="teamB" id="g3">...</div>
-        </div>
-    </div>   
-
-
-    <div id="semiphase">
-        semi-final
-        <div class="phase boxA3">
-            <div class="teamA" id="a4">...</div>
-            <div class="teamB" id="d4">...</div>
-        </div>
-        <div class="phase boxB3">
-            <div class="teamA" id="b4">...</div>
-            <div class="teamB" id="c4">...</div>
-        </div>
-    </div>   
-        
-    <div id="final">
-        <div class="fteam fA">korea republic</div>
-        <div class="fscore">3-2</div>
-        <div class="fteam fB">poland</div>
-        <div id="winner"></div>
-    </div>    
-        
-        <script src="main.js"></script>
-    </body>
+</body>
 </html>

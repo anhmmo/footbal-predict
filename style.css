@@ -31,7 +31,7 @@ p{
 }
 
 
-#start{
+#start, #re-start{
     position: absolute;
     width:150px;
     height:25px;
@@ -46,8 +46,12 @@ p{
     transform: translateX(-50%);
 }
 
-#start:hover {
+#start:hover, #re-start:hover {
     cursor: pointer;
+}
+
+#re-start {
+    display: none;
 }
 
 #header{
@@ -158,7 +162,7 @@ p{
 }
 
 #quarterphase{
-    top: 25rem;
+    top: 28rem;
     left: 50%;
     transform: translateX(-50%);
     width: 18rem;
@@ -181,7 +185,7 @@ p{
 }
 
 #semiphase{
-    top: 50rem;
+    top: 55rem;
     width: 20rem;
     height: 10rem;
     background-color:rgba(0,0,250,1);
@@ -196,6 +200,7 @@ p{
 }
 
 .boxA3,.boxB3{
+    display: none;
     top: 2rem;
     width: 5rem;
 }

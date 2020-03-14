@@ -161,12 +161,15 @@ function semis() {
         semis();
     } else {
         currentgroup = 0;
+        $(".boxA3").show();
+        $(".boxB3").show();
         //final();
         setTimeout(final, 3000);
     }
 }
 
 function final() {
+    
     var teamA = $(".boxA3 .teamA").html();
     var teamB = $(".boxA3 .teamB").html();
     var rankA = rank[teamA];
@@ -234,6 +237,8 @@ function winner(a, b) {
         "opacity": "1"
     }, 2000);
     $("#final #winner").text(wteam + " wins the world cup\n🎂🎂🎂");
+
+    $("#re-start").show();
 }
 
 
