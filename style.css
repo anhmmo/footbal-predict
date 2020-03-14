@@ -136,7 +136,7 @@ p{
     background: #f9fcfb;
     border-right: 1px solid #8cba51;
     border-top: 1px solid #8cba51;
-    overflow-x:scroll;
+    
     overflow-y:hidden;
     padding-left: 5px;
     padding-top: 5px;
@@ -149,10 +149,10 @@ p{
     background: #f9fcfb;
     border-right:1px solid #8cba51;
     border-top:1px dotted #8cba51;
-    overflow-x:scroll;
+    
     overflow-y:hidden;
     padding-left: 5px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .boxA,.boxB{
     top: 30px;
