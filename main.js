@@ -8,7 +8,10 @@ window.onload = function() {
 
 }
 
-
+$("#re-start").click(function (e) { 
+    e.preventDefault();
+    window.location.reload();
+});
 
 function setGroups() {
     var top = 23;
