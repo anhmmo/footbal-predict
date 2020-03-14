@@ -80,10 +80,19 @@ function sortGroup(data) {
         $(".slot" + changes[i]).animate({
             "top": top + "px"
         }, 700);
+        
+        $(".slot" + changes[i]).css({
+            "background": "linear-gradient(to right bottom, #f36245, #b83771)",
+            "color": "white"
+        });
         if (i == 2 || i == 3) {
             $(".slot" + changes[i]).animate({
                 "width": "180px"
             }, 700);
+            $(".slot" + changes[i]).css({
+                "background": "linear-gradient(to right bottom, #f4eec7, #f4eec7)",
+                "color": "black"
+            });
         }
         top += 41;
     };
@@ -184,11 +193,11 @@ function final() {
     var fteamA = arr[Rand(0, 4)];
     if (fteamA == teamA) {
         $(".boxA3 .teamA").css({
-            "background": "linear-gradient(to right bottom, #f36245, #b83771)"
+            "background": "#ffd868"
         });
     } else {
         $(".boxA3 .teamB").css({
-            "background": "linear-gradient(to right bottom, #f36245, #b83771)"
+            "background": "#ffd868"
         });
     }
     var teamC = $(".boxB3 .teamA").html();
@@ -202,11 +211,11 @@ function final() {
     var fteamB = arr[Rand(0, 4)];
     if (fteamB == teamC) {
         $(".boxB3 .teamA").css({
-            "background": "linear-gradient(to right bottom, #f36245, #b83771)"
+            "background": "#ffd868"
         });
     } else {
         $(".boxB3 .teamB").css({
-            "background": "linear-gradient(to right bottom, #f36245, #b83771)"
+            "background": "#ffd868"
         });
     }
     innerA = fteamA.replace(/_/g, " ");
@@ -239,7 +248,7 @@ function winner(a, b) {
     $("#final #winner").animate({
         "opacity": "1"
     }, 2000);
-    $("#final #winner").text(wteam + " wins the world cup\n🎂🎂🎂");
+    $("#final #winner").text(wteam + " wins the world cup\n Congratulations ♕ ♕ ♕ ");
 
     $("#re-start").show();
 }
@@ -271,7 +280,7 @@ rank = {
     "Peru": 11,
     "Poland": 8,
     "Portugal": 4,
-    "Russia": (70 - 35), //-35 because russia's ranking should not be this low,they are pretty good
+    "Russia": (70 - 35), 
     "Saudi_Arabia": 67,
     "Senegal": 27,
     "Serbia": 34,

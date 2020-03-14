@@ -26,7 +26,7 @@ p{
     width: 40rem;
     height: 20rem;
     background-image: linear-gradient(45deg,rgba(0, 160, 80, 0.7) 50%,rgba(37, 255, 128, 0.8));
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 0 10px rgb(135, 240, 189), 0 0 40px rgb(135, 240, 189), 0 0 80px rgb(135, 240, 189);
     border-radius: .5rem;
     color:white;
 }
@@ -37,7 +37,7 @@ p{
     width:150px;
     height:25px;
     padding-top:5px;
-    background: linear-gradient(to right bottom, #2d41b1, #1b7599);
+    background: linear-gradient(to right bottom, #ffd868, #fd5e53);
     z-index:100;
     text-align:center;
     font-weight:700;
@@ -47,6 +47,7 @@ p{
     transform: translateX(-50%);
     z-index: 200;
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 20px;
 }
 
 #start:hover, #re-start:hover {
@@ -119,11 +120,11 @@ p{
 
 
 .phase{
-    width: 20rem;
-    height: 5rem;
+    width: 18rem;
+    height: 3rem;
     border: 1px solid black;
     color:rgb(61, 60, 60);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 800;
     background-image: linear-gradient(45deg,rgba(0, 160, 80, 0.7) 50%,rgba(37, 255, 128, 0.8));
 }
@@ -132,36 +133,38 @@ p{
     height: 40px;
     top: 3px;
     left: 3px;
-    background-color:#ffaaaa;
-    border-right:1px solid black;
-    border-top:1px solid black;
+    background: #f9fcfb;
+    border-right: 1px solid #8cba51;
+    border-top: 1px solid #8cba51;
     overflow-x:scroll;
     overflow-y:hidden;
     padding-left: 5px;
+    padding-top: 5px;
 }
 .phase .teamB{
     width: 19.3rem;
-    height: 40px;
-    top: 20px;
+    height: 35px;
+    top: 35px;
     left: 3px;
-    background-color:#ffaaaa;
-    border-right:1px solid black;
-    border-top:1px solid black;
+    background: #f9fcfb;
+    border-right:1px solid #8cba51;
+    border-top:1px dotted #8cba51;
     overflow-x:scroll;
     overflow-y:hidden;
     padding-left: 5px;
+    padding-top: 5px;
 }
 .boxA,.boxB{
-    top: 100px;
+    top: 30px;
 }
 .boxC,.boxD{
-    top: 144px;
+    top: 115px;
 }
 .boxE,.boxF{
-    top: 300px;
+    top: 284px;
 }
 .boxG,.boxH{
-    top: 344px;
+    top: 370px;
 }
 .boxA,.boxC,.boxE,.boxG{
     left: 5rem;
@@ -177,8 +180,9 @@ p{
     transform: translateX(-50%);
     width: 28rem;
     height: 19rem;
-    border:1px solid black;
 }
+
+
 .boxA2,.boxB2{
     top:12px;
 }
@@ -213,6 +217,7 @@ p{
     display: block;
     margin-top: -.2rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .boxA3,.boxB3{
@@ -246,17 +251,17 @@ p{
 
 #final{
     top: 65%;
-    width:280px;
-    height:250px;
-    background-image:url(https://cdni.rt.com/files/2018.03/article/5ab4f490fc7e93e4708b45b2.jpg);
-    border:2px solid black;
-    background-size:100% 100%;
-    perspective:400px;
+    width: 40rem;
+    height: 30rem;
+    background-image:url(https://pixabay.com/get/55e8d0434d57ae14f1dc84608229327b173ed8e3534c704c7d2b7adc9e4fc051/artificial-islands-3850752_640.jpg);
+    background-size: 100% 100%;
+    perspective: 400px;
     left: 50%;
     transform: translate(-50%,-50%);
+    border-radius: 10px;
 }
 .fteam{
-    width:100px;
+    width:150px;
     height:25px;
     padding-top:5px;
     border:1px solid black;
@@ -270,17 +275,17 @@ p{
     background-color:#6666ff;
 }
 .fA{
-    left:10px;
+    left: 3px;
 }
 .fB{
-    left:170px;
+    left: 245px;
 }
 .fscore{
-    width:50px;
+    width: 50px;
     height:30px;
     border:1px solid black;
     top:40px;
-    left:115px;
+    left:174px;
     font-size:25px;
     color:black;
     text-transform:uppercase;
@@ -293,10 +298,10 @@ p{
     width:240px;
     padding:10px;
     height:40px;
-    border:1px solid black;
+    border:1px solid rgb(255, 255, 255);
     top:160px;
-    left:10px;
-    background-color:red;
+    left:70px;
+    background-image: linear-gradient(45deg,rgba(0, 160, 80, 0.7) 50%,rgba(37, 255, 128, 0.8));
     font-weight:700;
     font-family:monospace;
     animation:flip 3s linear alternate infinite;
