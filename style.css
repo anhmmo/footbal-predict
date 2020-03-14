@@ -34,7 +34,7 @@ p{
 
 #start, #re-start{
     position: absolute;
-    width:150px;
+    width:120px;
     height:25px;
     padding-top:5px;
     background: linear-gradient(to right bottom, #ffd868, #fd5e53);
@@ -206,6 +206,7 @@ p{
     left: 50%;
     transform: translateX(-50%);
     padding-top: 5px;
+    box-shadow: 0 0 10px rgb(135, 240, 189), 0 0 40px rgb(135, 240, 189), 0 0 80px rgb(135, 240, 189);
 }
 
 
