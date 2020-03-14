@@ -119,35 +119,37 @@ p{
 
 
 .phase{
-    width: 10rem;
+    width: 20rem;
     height: 5rem;
     border: 1px solid black;
-    color:black;
-    font-size: 1.2rem;
+    color:rgb(61, 60, 60);
+    font-size: 1.4rem;
     font-weight: 800;
-    background-color:#ffaaaa;
+    background-image: linear-gradient(45deg,rgba(0, 160, 80, 0.7) 50%,rgba(37, 255, 128, 0.8));
 }
 .phase .teamA{
-    width:80px;
-    height:40px;
-    top:3px;
-    left:3px;
+    width: 19.3rem;
+    height: 40px;
+    top: 3px;
+    left: 3px;
     background-color:#ffaaaa;
     border-right:1px solid black;
     border-top:1px solid black;
     overflow-x:scroll;
     overflow-y:hidden;
+    padding-left: 5px;
 }
 .phase .teamB{
-    width:80px;
-    height:40px;
-    top:20px;
-    left:3px;
+    width: 19.3rem;
+    height: 40px;
+    top: 20px;
+    left: 3px;
     background-color:#ffaaaa;
     border-right:1px solid black;
     border-top:1px solid black;
     overflow-x:scroll;
     overflow-y:hidden;
+    padding-left: 5px;
 }
 .boxA,.boxB{
     top: 100px;
@@ -162,18 +164,18 @@ p{
     top: 344px;
 }
 .boxA,.boxC,.boxE,.boxG{
-    left: 10rem;
+    left: 5rem;
 }
 
 .boxB,.boxD,.boxF,.boxH{
-    left: 80rem;
+    left: 75rem;
 }
 
 #quarterphase{
     top: 28rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 18rem;
+    width: 28rem;
     height: 19rem;
     border:1px solid black;
 }
@@ -194,17 +196,23 @@ p{
 
 #semiphase{
     top: 55rem;
-    width: 20rem;
+    width: 31rem;
     height: 10rem;
-    background-color:rgba(0,0,250,1);
-    text-align:center;
+    background-image: linear-gradient(45deg,rgba(0, 160, 80, 0.7) 50%,rgba(37, 255, 128, 0.8));
     left: 50%;
     transform: translateX(-50%);
+    padding-top: 5px;
 }
 
 
 #semiphase .phase{
     top: 3rem;
+}
+
+#semiphase p{
+    display: block;
+    margin-top: -.2rem;
+    text-align: center;
 }
 
 .boxA3,.boxB3{

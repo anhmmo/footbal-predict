@@ -181,11 +181,11 @@ function final() {
     var fteamA = arr[Rand(0, 4)];
     if (fteamA == teamA) {
         $(".boxA3 .teamA").css({
-            "background": "blue"
+            "background": "linear-gradient(to right bottom, #f36245, #b83771)"
         });
     } else {
         $(".boxA3 .teamB").css({
-            "background": "blue"
+            "background": "linear-gradient(to right bottom, #f36245, #b83771)"
         });
     }
     var teamC = $(".boxB3 .teamA").html();
@@ -199,11 +199,11 @@ function final() {
     var fteamB = arr[Rand(0, 4)];
     if (fteamB == teamC) {
         $(".boxB3 .teamA").css({
-            "background": "blue"
+            "background": "linear-gradient(to right bottom, #f36245, #b83771)"
         });
     } else {
         $(".boxB3 .teamB").css({
-            "background": "blue"
+            "background": "linear-gradient(to right bottom, #f36245, #b83771)"
         });
     }
     innerA = fteamA.replace(/_/g, " ");
